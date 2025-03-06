@@ -11,6 +11,11 @@
     height: 65px;
 }
 
+@media (max-width: 800px) {
+    .subheader{
+        display: none;
+    }
+}
 .box-container {
     display: flex;
     justify-content: center;
