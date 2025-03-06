@@ -9,6 +9,11 @@
     padding-top: 5px;
 }
 
+@media (min-width: 1000px) {
+    .side-bar {
+        display: none;
+    }
+}
 .sidebar-link {
     height: 74px;
     display: flex;
