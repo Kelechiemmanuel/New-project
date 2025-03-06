@@ -1,0 +1,35 @@
+.subheader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 72px;
+    background-color: white;
+    color: black;
+    z-index: 80;
+    height: 65px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+
+
+.box-hover{
+    position: absolute;
+    border: 1px solid red;
+    padding: 3px 10px;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.box-container:hover .box-hover {
+    opacity: 1;
+}
